@@ -35,7 +35,7 @@ add_action('acf/include_field_types', 'include_field_types_layer_slider');
 
 
 // 3. Include field type for ACF4
-function register_fields_FIELD_NAME() {
+function register_fields_layer_slider() {
 	
 	include_once('acf-layer_slider-v4.php');
 	
